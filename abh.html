@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Anastasia Beverly Hills</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* custom styles here! */
+        /* ROWS ARE CRITICAL! THEY RESET THE FLOW OF THE PAGE!!! */
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+
+
+        @media only screen {
+
+            /* For desktop: */
+            .col-1 {
+                width: 8.33%;
+            }
+
+            .col-2 {
+                width: 16.66%;
+            }
+
+            .col-3 {
+                width: 25%;
+            }
+
+            .col-4 {
+                width: 33.33%;
+            }
+
+            .col-5 {
+                width: 41.66%;
+            }
+
+            .col-6 {
+                width: 50%;
+            }
+
+            .col-7 {
+                width: 58.33%;
+            }
+
+            .col-8 {
+                width: 66.66%;
+            }
+
+            .col-9 {
+                width: 75%;
+            }
+
+            .col-10 {
+                width: 83.33%;
+            }
+
+            .col-11 {
+                width: 91.66%;
+            }
+
+            .col-12 {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row">
+            <h1>Anastasia Beverly Hills</h1>
+            <nav>
+                <div class="col-2"><a href="index.html">Home</a> </div>
+                <div class="col-3"><a href="colourpop.html">Colourpop Cosmetics</a> </div>
+                <div class="col-3"><a href="morphe.html">Morphe Brushes</a></div>
+                <div class="col-4"><a href="abh.html">Anastasia Beverly Hills</a></div>
+            </nav>
+        </header>
+        <main>
+            <div class="row">
+                <div class="col-6"> <img src="abh-logo.png" alt="abh-logo"> </div>
+                <div class="col-6">
+                    <p>Anastasia Beverly Hills is another one of my favorite makeup brands. They are on the high end of
+                        the scale rather than Colourpop and Morphe which are more affordable.</p>
+                </div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-4">
+
+                </div>
+                <div class="col-8"><img src="abh-brow.jpg" alt="abh-brow"></div>
+            </div>
+            <!-- end row -->
+            <div class="row">
+                <div class="col-">
+                    <p>Anastasia Beverly Hills started off as just an eyebrow company and since the 90's they have
+                        expanded to eyeshadow palettes, lip glosses and lip sticks and more. </p>
+                </div>
+                <div class="col-6"><img src="we-are-brows.jpg" alt="we-are-brows"></div>
+                <div class="col-6">
+                    <p>My favorite products from them are their eyeshadows and eyebrow products. Their eyeshadows blend
+                        like a dream and are so pigmented. Their eyebrow products are the best of the best. As being
+                        specialized in eyebrows,I believe they have the best products for them.</p>
+                </div>
+            </div>
+            <!-- end row-->
+        </main>
+        <footer class="row">
+            <div>
+                <h3> Julia Poczkalski - November 22nd, 2020 </h3>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>">
+</head>
+
+<body>
+
+</body>
+
+</html>
